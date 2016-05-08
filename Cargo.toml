@@ -1,0 +1,12 @@
+[package]
+
+name = "rotor-ares"
+description = "A DNS resolver based on rotor and c-ares"
+license = "MIT"
+authors = ["Siddon Tang <siddontang@gmail.com>"]
+keywords = ["dns", "rotor", "ares"]
+
+[dependencies]
+rotor = "0.6"
+c-ares = "*"
+log = 0.3
